@@ -68,7 +68,6 @@ Your plugin will be available at `https://your-site.com/panel/plugins/todos`.
 | `menu` | `true` | Whether to show custom view in Panel menu, see below |
 | `label` | <code></code> | Label for menu item in Panel menu |
 
-<since v="3.5.5">
 ### Dynamic control over the menu item
 
 The `menu` option can have the values `true` (always active), `false` (no menu item) or `"disabled"` (disabled menu item, e.g. if the user doesn't have enough permissions).
@@ -93,7 +92,6 @@ panel.plugin("yourname/todos", {
   }
 });
 ```
-</since>
 
 ## CSS styles
 
@@ -107,7 +105,6 @@ If you need additional styling for your view, you can create an `index.css` and 
 
 ## Override default views
 
-<since v="3.2.0">
 You can override Kirby's default panel views by replacing the view components with your own Vue component.
 
 ```js "/site/plugins/my-panel-views/index.js"
@@ -133,7 +130,6 @@ You can replace the following components:
 - `k-user-view`
 
 The Panel views are often very complex. If you want to replace them without losing features, check out the orginal source code for each component. You can find them (link: https://github.com/getkirby/kirby/tree/main/panel/src/components/Views text: on GitHub).
-</since>
 
 ## More information
 

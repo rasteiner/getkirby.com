@@ -50,8 +50,7 @@ export default {
 </script>
 ```
 
-<since v="3.5.0">
-Kirby 3.5+ also allows *extending* the login form with your own markup (e.g. logos, contact information, links etc.):
+Kirby also allows *extending* the login form with your own markup (e.g. logos, contact information, links etc.):
 
 ```js "index.js"
 import LoginScreen from "./components/LoginScreen.vue";
@@ -94,7 +93,6 @@ panel.plugin('my/auth', {
 ```
 
 (image: login-form.png)
-</since>
 
 <info>
 If you want to replace the whole login form with your own logic, you can still do that like before. In the meantime we are working on a new plugin extension to register additional forms to toggle between so you don't have to replace the whole form in the future. Stay tuned!
